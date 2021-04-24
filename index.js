@@ -18,7 +18,7 @@ const suma = (sumandoA, sumandoB) => {
     return sumandoA + sumandoB;
 }
 
-// //3
+//3
 const resta = (minuendo, sustraendo) => {
     return minuendo - sustraendo;
 }
@@ -38,21 +38,21 @@ const division = (dividendo, divisor) => {
 }
 
 //6
-// const tablaMultiplicar = (multiplicando, multiplicador) => {
-//     if (multiplicador === undefined) multiplicador = 10;
-//     let table = []
-//     for (let i = 0; i <= multiplicador; i++){
-//         table.push(multiplicando * i)
-//     }
-//     return table
-// }
+const tablaMultiplicar = (multiplicando, multiplicador) => {
+    if (multiplicador === undefined) multiplicador = 10;
+    let table = []
+    for (let i = 0; i <= multiplicador; i++){
+        table.push(multiplicando * i)
+    }
+    return table
+}
 
 //7
 const potencia = (base, exponente) => {
     return Math.pow(base, exponente)
 }
 
-// //8
+// 8
 const anidada = (a,b) => {
     function cuadrado(x) {
         return x * x;
@@ -76,7 +76,7 @@ module.exports = {
     resta,
     multiplicacion,
     division,
-    //tablaMultiplicar,
+    tablaMultiplicar,
     potencia,
     anidada,
     cerosIzq,

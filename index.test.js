@@ -34,13 +34,13 @@ test('return ERROR for divide 6 / 0', () => {
     expect(example.division(6, 0)).toBe("No se puede dividir por 0");
 })
 
-// test('return ERROR if multiplicador is undefined', () => {
-//     expect(example.tablaMultiplicar(3)).toBe([0,3,6,9,12,15,18,21,24,27,30]);
-// })
+test('return ERROR if multiplicador is undefined', () => {
+    expect(example.tablaMultiplicar(3)).toEqual([0,3,6,9,12,15,18,21,24,27,30]);
+})
 
-// test('return ERROR if multiplicador is undefined', () => {
-//     expect(example.tablaMultiplicar(3,6)).toBe([0,3,6,9,12,15,18]);
-// })
+test('return ERROR if multiplicador is undefined', () => {
+    expect(example.tablaMultiplicar(3,6)).toEqual([0,3,6,9,12,15,18]);
+})
 
 test('return 16 for 2^4', () => {
     expect(example.potencia(2, 4)).toBe(16);
