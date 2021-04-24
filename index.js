@@ -1,13 +1,3 @@
-// function sum(a, b, c) {
-//     if (c) {
-//         return a + b + c;
-//     } else {
-//         return a + b;
-//     }
-// }
-
-// module.exports = sum;
-
 //1
 const texto = (texto) => {
     return texto
