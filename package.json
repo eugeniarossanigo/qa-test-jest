@@ -1,0 +1,23 @@
+{
+  "name": "qa-test-jest",
+  "version": "0.0.1",
+  "description": "Eugenia Rossanigo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pikymga/qa-test-jest.git"
+  },
+  "author": "Eugenia Rossanigo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pikymga/qa-test-jest/issues"
+  },
+  "homepage": "https://github.com/pikymga/qa-test-jest#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
